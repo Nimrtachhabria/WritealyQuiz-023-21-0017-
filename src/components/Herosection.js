@@ -1,6 +1,13 @@
-const HS = () => {
-    return (
-      <p>Hello World!</p>
-    );
-  };
-  export default HS;
+import React from 'react'
+
+const Herosection = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default Herosection
+
+

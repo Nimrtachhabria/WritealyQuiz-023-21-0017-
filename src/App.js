@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import header from './components/header'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header'
 import Herosection from './components/Herosection'
 import Reviews from './components/Reviews';
+
 function App() {
   return (
     <div className="App">
-    <header></header>
-    <Herosection></Herosection>
-    <Reviews></Reviews>
+    <Header />
+     <Herosection />
     </div>
   );
 }
