@@ -7,11 +7,11 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 export default function Header() {
   return (
-    <div>
+    <div >
         
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#">NC</Navbar.Brand>
+        <Navbar.Brand href="#">Writealy</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -19,12 +19,14 @@ export default function Header() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">About</Nav.Link>
-            <NavDropdown title="review" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">buyer</NavDropdown.Item>
+            <Nav.Link href="#action1">product</Nav.Link>
+            <Nav.Link href="#action2">customers</Nav.Link>
+            <Nav.Link href="#action2">pricing</Nav.Link>
+            
+            <NavDropdown title="usecases" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">1</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
-            seller
+           2
             </NavDropdown.Item>
               <NavDropdown.Divider />
             </NavDropdown>
@@ -39,7 +41,7 @@ export default function Header() {
               className="me-2"
               aria-label="Search"
             /> */}
-            <Button variant="outline-success">login</Button>
+            <Button variant="outline-success">signin</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
